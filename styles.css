@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .container img{
+    width: 100% ;
+    height: 820px;
+  }
+  .container h2{
+    /* padding: 15px ; */
+    text-align: center;
+  }
+  /* Navbar Styles */
+  .navbar {
+    background-color: #20B8CB;
+    color: #000;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Home Section Styles */
+  .home-section {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  /* Portfolio Section Styles */
+  .portfolio-section {
+    padding: 50px 0;
+  }
+  /* Footer Styles */
+.footer {
+    background-color: #20B8CB;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Adjustments for better visibility */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  /* For smaller screens (e.g., mobile phones) */
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    /* Adjust padding or font sizes for smaller screens */
+    .navbar {
+      padding: 10px 0;
+    }
+  
+    .home-section {
+      padding: 80px 0;
+    }
+  
+    .portfolio-section {
+      padding: 30px 0;
+    }
+  }
+  
+  /* For medium-sized screens (e.g., tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust layout for medium-sized screens */
+    .container {
+      width: 85%;
+    }
+  
+    /* You can further customize specific elements for medium screens here */
+  }
+  
+  /* For larger screens (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* Adjust layout for larger screens */
+    .container {
+      width: 80%;
+    }
+
+    /* You can further customize specific elements for larger screens here */
+  }
+  
+  /* For smaller screens (e.g., mobile phones) */
+@media only screen and (max-width: 600px) {
+    /* Other responsive styles for smaller screens */
+  
+    /* Make images responsive */
+    .portfolio-section .container img {
+      max-width: 100%; /* Ensures images scale down for smaller screens */
+      height: auto; /* Maintains aspect ratio */
+    }
+  }
+  /* Responsive Footer Styles */
+@media only screen and (max-width: 600px) {
+    .footer {
+      padding: 15px 0; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  }
+  
